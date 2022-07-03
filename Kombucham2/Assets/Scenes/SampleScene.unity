@@ -2036,7 +2036,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 0}
+  selectedFlowchart: {fileID: 1957686505}
 --- !u!4 &1052614780
 Transform:
   m_ObjectHideFlags: 1
@@ -3376,6 +3376,7 @@ GameObject:
   - component: {fileID: 1957686509}
   - component: {fileID: 1957686508}
   - component: {fileID: 1957686507}
+  - component: {fileID: 1957686510}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -3463,8 +3464,7 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1957686509}
+  selectedBlocks: []
   selectedCommands: []
   variables: []
   description: 
@@ -3525,7 +3525,7 @@ MonoBehaviour:
     gameObjectVal: {fileID: 492181369}
   _duration:
     floatRef: {fileID: 0}
-    floatVal: 1
+    floatVal: 2
   _toFrom: 0
   _absAdd: 0
   easeType: 4
@@ -3567,7 +3567,22 @@ MonoBehaviour:
   eventHandler: {fileID: 1957686507}
   commandList:
   - {fileID: 1957686508}
+  - {fileID: 1957686510}
   suppressAllAutoSelections: 0
+--- !u!114 &1957686510
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1957686501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c640dd02e03862142b18270a89a2abe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 5
+  indentLevel: 0
 --- !u!1 &2105636646
 GameObject:
   m_ObjectHideFlags: 0
