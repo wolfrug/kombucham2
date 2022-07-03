@@ -1,3 +1,4 @@
+INCLUDE testroom.ink
 VAR variable = 45
 
 Testing ink things.
@@ -12,7 +13,7 @@ OtherTestChar Maybe??
  ->SpinMauro
  * Don't spin Mauro
  Oh well.
- ->DONE
+ ->thebeginning
  
 
  ==SpinMauro
