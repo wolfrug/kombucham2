@@ -5698,6 +5698,10 @@ GameObject:
   - component: {fileID: 1260152205}
   - component: {fileID: 1260152204}
   - component: {fileID: 1260152247}
+  - component: {fileID: 1260152185}
+  - component: {fileID: 1260152182}
+  - component: {fileID: 1260152179}
+  - component: {fileID: 1260152176}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -5747,7 +5751,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -23.846289, y: 30.728313}
+  scrollPos: {x: -105.16497, y: 125.23381}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -5758,10 +5762,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 1260152164}
-  selectedCommands:
-  - {fileID: 1260152173}
+  selectedBlocks: []
+  selectedCommands: []
   variables:
   - {fileID: 1260152252}
   - {fileID: 1260152230}
@@ -6170,6 +6172,20 @@ MonoBehaviour:
   - {fileID: 1260152174}
   - {fileID: 1260152204}
   suppressAllAutoSelections: 0
+--- !u!114 &1260152176
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260152155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c640dd02e03862142b18270a89a2abe6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 260
+  indentLevel: 0
 --- !u!114 &1260152177
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6214,6 +6230,31 @@ MonoBehaviour:
   - {fileID: 1260152177}
   - {fileID: 1260152208}
   suppressAllAutoSelections: 0
+--- !u!114 &1260152179
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260152155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 259
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 2032555601}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
 --- !u!114 &1260152180
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6258,6 +6299,21 @@ MonoBehaviour:
   - {fileID: 1260152180}
   - {fileID: 1260152205}
   suppressAllAutoSelections: 0
+--- !u!114 &1260152182
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260152155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d7d417659cd54a6787f70f763950c34, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  parentBlock: {fileID: 1260152185}
+  suppressBlockAutoSelect: 0
+  message: ink background.test
 --- !u!114 &1260152183
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -6301,6 +6357,34 @@ MonoBehaviour:
   - {fileID: 1260152196}
   - {fileID: 1260152183}
   - {fileID: 1260152212}
+  suppressAllAutoSelections: 0
+--- !u!114 &1260152185
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1260152155}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 1220
+    y: -40
+    width: 140
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 258
+  blockName: TestBackground
+  description: 
+  eventHandler: {fileID: 1260152182}
+  commandList:
+  - {fileID: 1260152179}
+  - {fileID: 1260152176}
   suppressAllAutoSelections: 0
 --- !u!114 &1260152186
 MonoBehaviour:

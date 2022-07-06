@@ -6,6 +6,7 @@ Narrator "When the portals opened in the ice of old Earth, opening a way to a ne
 Narrator "Though others said it couldn't be done, they built <i>The Pentecost</i> and forged a new path into the darkness of the <i>Brine</i>.
 
 Narrator "They did not know what awaited them.
+#background.test #wait
 
 Narrator "Perhaps if they had, they would have turned aside.
 
