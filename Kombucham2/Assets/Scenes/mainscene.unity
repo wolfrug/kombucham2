@@ -164,7 +164,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Magnus
+  nameText: Magnus<br><size=25>The Scientist</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -780,7 +780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Xeri
+  nameText: Xeri<br><size=25>The Chief Engineer</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -831,7 +831,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Firenze
+  nameText: Firenze<br><size=25>The Anarchist</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -1350,7 +1350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Roque
+  nameText: Roque<br><size=25>The Archbishop</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -1835,7 +1835,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Mal
+  nameText: Mal<br><size=25>The Rookie</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -3808,7 +3808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Rilke
+  nameText: Rilke<br><size=25>The Commander</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -3937,7 +3937,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Sykes
+  nameText: Sykes<br><size=25>The Marine</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -3988,7 +3988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Calder
+  nameText: Calder<br><size=25>The Engineer</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -16678,7 +16678,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Jae
+  nameText: Jae<br><size=25>The Pilot</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -17806,7 +17806,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Alvaro
+  nameText: Alvaro<br><size=25>The Admiral</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -18304,8 +18304,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 392.9, y: -296.7}
-  m_SizeDelta: {x: 392.00513, y: 121.43021}
+  m_AnchoredPosition: {x: 392.9, y: -262.2}
+  m_SizeDelta: {x: 392.00513, y: 96.3246}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1731715616
 CanvasRenderer:
@@ -18334,7 +18334,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Name
+  m_text: Alvaro<br><size=25>the Admiral</size>
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 46947f9c52f87404fbf7a3a2543084b1, type: 2}
   m_sharedMaterial: {fileID: 2547194424287615810, guid: 46947f9c52f87404fbf7a3a2543084b1,
@@ -18404,6 +18404,57 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &1733841260
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1733841261}
+  - component: {fileID: 1733841262}
+  m_Layer: 0
+  m_Name: MC
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1733841261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733841260}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2019736316}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1733841262
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1733841260}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nameText: You
+  nameColor: {r: 0, g: 0, b: 0, a: 1}
+  soundEffect: {fileID: 0}
+  portraits:
+  - {fileID: 21300000, guid: e7fae241b97b6584aa341bbb18e4c17c, type: 3}
+  portraitsFace: 0
+  setSayDialog: {fileID: 0}
+  description: 
 --- !u!1 &1743885413
 GameObject:
   m_ObjectHideFlags: 0
@@ -19014,7 +19065,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Sinclair
+  nameText: Sinclair<br><size=25>The Visionary</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -19275,7 +19326,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Kaori
+  nameText: Kaori<br><size=25>The Harpoonist</size>
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -19422,6 +19473,7 @@ Transform:
   - {fileID: 258259853}
   - {fileID: 174330139}
   - {fileID: 1687481764}
+  - {fileID: 1733841261}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
