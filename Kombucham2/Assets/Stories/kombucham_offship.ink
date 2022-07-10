@@ -1,7 +1,9 @@
 // Offship events
 
 ==mainstory_start
-Narrator "When the portals opened in the ice of old Earth, opening a way to a new world our forefathers chose to venture forth into the unknown. 
+Narrator "When the portals opened in the ice of old Earth, opening a way to a new world our forefathers chose to venture forth into the unknown.
+
+Alvaro?normal "Yarr harr me mateys!
 
 Narrator "Though others said it couldn't be done, they built <i>The Pentecost</i> and forged a new path into the darkness of the <i>Brine</i>.
 
