@@ -12,11 +12,11 @@
 {currentDay:
 - 0:
 // DAY ZERO
-{SetNextRoomEvent(Bridge, 1, ->bridgeevent_green_day0)}
+{SetNextRoomEvent(Bridge, 1, ->hangarEvent_yellow_day1)}
 - 1:
 // DAY ONE -> could also go to specific stitches for ease of reading etc
+{SetNextRoomEvent(Bridge, 1, ->bridgeevent_yellow_day1)}
 }
-
 ->->
 
 ==function CloseAllRooms()
