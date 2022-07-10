@@ -5,4 +5,4 @@ Test event, set through another test event in the bridge.
 
 * Cool.
 {NullRoomEvent(LivingQuarters)}
-->returnToMap(false)
+->returnToMap

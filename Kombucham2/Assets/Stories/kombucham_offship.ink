@@ -1,7 +1,6 @@
 // Offship events
 
 ==mainstory_start
-
 Narrator "When the Portals opened in the ice of old Earth we were the one's who breached the gap and ventured forth into the unknown - we the poor, the desperate, the displaced."
 
 Narrator "There was nothing left for us on our own planet, and so we risked it all, resolved to forge a new home here in the waters of a drowned alien world."
@@ -42,9 +41,9 @@ Mal?normal "I don't understand why we're wasting time on this. Everyone aboard i
 
 Hull integrity still seems fine, and with flashlights on your team surveys the halls. You come to a crossroads.
 
-Jae?normal "Split up?" He proposes. 
+Jae?normal ""Split up?" He proposes. 
 
-Mal?normal "...And home in time for dinner by 2nd bell." Mal chimes in.
+Mal?normal ""...And home in time for dinner by 2nd bell." Mal chimes in.
 
 Your'e all eager to be done with this fetchquest.
 
@@ -55,12 +54,12 @@ Your'e all eager to be done with this fetchquest.
     "As if."
     "Just don't come crying to me when a zombie octopus eats your brains, Jae."
     
-->wreckrooms
+- ->wreckrooms
 
 =wreckrooms
 
 
-*[Go to the Hold.]
+*Go to the Hold.
     3. THE HOLD
 
     The place is in disarray, shattered boxes littering the floor. Whatever they were up to, they were equipped for a long journey. There's even a rudimentary ichor processing bay at the back of the hold with the hunting gear.
@@ -68,7 +67,7 @@ Your'e all eager to be done with this fetchquest.
     You find some intact ichor cores amongst the detritus and tuck them into your pack.->wreckrooms
 
 
-*[Go to the Sacristy.]
+*Go to the Sacristy.
     2. THE SACRISTY
     
     You find the small room tucked into a converted closet, a mobile chapel of holy objects and ephemera. Clearly the crew were believers. They gathered here to die, and from the looks of it they've been down here for a while.
@@ -76,7 +75,7 @@ Your'e all eager to be done with this fetchquest.
     At the centre of the shrine you fine a holy seal, the mark of the Archbishop himself. They must have been working for him directly. You leave the dead to their slumber.->wreckrooms
 
 
-*[Go to the Stateroom.]
+*Go to the Stateroom.
     1. THE STATEROOM (name for cpt quarters on a sub)
 
     Everything remains untouched, as if the Captain just left the room mere moments ago. There are charts on the walls and hydrographic surveys of areas you've never seen before. Seems they were looking for something, but what?
@@ -99,7 +98,7 @@ MC?normal"Mal!"
 -
 You enter the Bridge just in time to see a Sapper (tentacled squid thing) flinging itself across the room in a tangle of inky tenacles.
 
-Sykes?normal "Duck!" Sykes shouts beside you. 
+Sykes?normal ""Duck!" Sykes shouts beside you. 
 
 You miss its serrated stinger  by a hairsbreadth, and the beast rolls straight towards Mal. 
 

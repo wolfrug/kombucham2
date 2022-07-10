@@ -45,10 +45,9 @@ Something something disappointed in this outcome.
 
 Alvaro?normal "You're dismissed."
 
-*Leave. 
+*Leave.
+{SetNextRoomEvent(EngineRoom, 2, ->engineRoomEvent_yellow_day1)}
 {NullRoomEvent(Bridge)} 
-
-
-- ->returnToMap(false)
+->returnToMap
 
 

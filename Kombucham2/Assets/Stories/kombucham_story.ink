@@ -51,6 +51,7 @@ VAR currentDay = 0
 }
 
 ==start
+{CloseAllRooms()}
 ->mainstory_start->
 ->skipTime(0)
 
@@ -61,69 +62,71 @@ VAR currentDay = 0
 // These have to be in this order to display correctly!
 {debug:
 + {bridgeOpen} Bridge (Event: {bridgeEventType})
-->bridge
+->bridgeView
 + {livingQuartersOpen} Living Quarters (Event: {livingQuartersEventType})
-->livingQuarters
+->livingQuartersView
 + {hangarOpen} Hangar (Event: {hangarEventType})
-->hangar
+->hangarView
 + {cathedralOpen} Cathedral (Event: {cathedralEventType})
-->cathedral
+->cathedralView
 + {marketOpen} Market (Event: {marketEventType})
-->market
+->marketView
 + {laboratoryOpen} Laboratory (Event: {laboratoryEventType})
-->laboratory
+->laboratoryView
 + {engineRoomOpen} Engine Room (Event: {engineRoomEventType})
-->engineRoom
+->engineRoomView
 }
 + {debug} ->noChoicesLeft
 + ->DONE
 
-==bridge
+==bridgeView
 ->bridgeEvent
 
-==market
+==marketView
 ->marketEvent
 
-==livingQuarters
+==livingQuartersView
 ->livingQuartersEvent
 
-==hangar
+==hangarView
 ->hangarEvent
 
-==engineRoom
+==engineRoomView
 ->engineRoomEvent
 
-==laboratory
+==laboratoryView
 ->laboratoryEvent
 
-==cathedral
+==cathedralView
 ->cathedralEvent
 
-==returnToMap(moveTimeForward)
-// Do we skip forward in time?
-{moveTimeForward:
-->skipTime(1)
-}
+==returnToMap
 ->mainView
+
 
 ==skipTime(days)
 // Skips time forward, and sets up events
 ~currentDay+=days
 ->setupDailyStartEvents->
 // all done?
+{debug: [DEBUG] Ended day, beginning new day (nr: {currentDay})}
 ->mainView
 
 ==fallbackEvent
 This event is a fallback event and should not be reached.
-->returnToMap(false)
+->returnToMap
 
 ==noChoicesLeft
 [Ran out of content!]
 ->END
 
+==endDay==
+->skipTime(1)
+
 ==function SetNextRoomEvent(room, type, ->eventref)
 // Sets the next room event for the room in question
 // also sets the room to inactive/active based on type, if set
+{debug: [DEBUG] Setting room event in {room} to {eventref} with value {type}}
 ~temp setRoomToInactiveIf0 = true
 {room:
 - Bridge:
@@ -200,6 +203,7 @@ This event is a fallback event and should not be reached.
 ===function NullRoomEvent(room)
 // Nulls the room event
 // also sets the room to inactive/active based on type, if set
+{debug: [DEBUG] Nulling room events in {room}}
 ~temp setRoomToInactiveIf0 = true
 {room:
 - Bridge:

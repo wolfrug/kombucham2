@@ -15,9 +15,9 @@ Says he'll look into it some more, it might take some time to run the decryption
 If you have any revelations in the meantime you know where to find him.
 
 * Leave.
-{NullRoomEvent(laboratory)}
+{NullRoomEvent(Laboratory)}
 
-->returnToMap(true)
+->returnToMap
 
 
 
@@ -26,6 +26,6 @@ If you have any revelations in the meantime you know where to find him.
 Sent by Admiral to fix this cube. Good day.
 
 * Leave.
-{NullRoomEvent(laboratory)}
+{NullRoomEvent(Laboratory)}
 
-->returnToMap(true)
+->returnToMap

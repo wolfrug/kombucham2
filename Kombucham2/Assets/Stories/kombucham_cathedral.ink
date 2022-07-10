@@ -16,4 +16,4 @@ She casually mentions something about your friend, and you say "they aren't up t
 
 You head back to your quarters to sleep. It's been a long day.
 
-->returnToMap(true)
+->endDay

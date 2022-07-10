@@ -15,7 +15,13 @@
 {SetNextRoomEvent(Bridge, 1, ->hangarEvent_yellow_day1)}
 - 1:
 // DAY ONE -> could also go to specific stitches for ease of reading etc
-{SetNextRoomEvent(Bridge, 1, ->bridgeevent_yellow_day1)}
+
+
+- 2:
+// DAY TWO
+
+- 3:
+// DAY THREE
 }
 ->->
 

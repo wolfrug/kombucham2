@@ -23,12 +23,10 @@ And Officers...
 -
 Rilke?normal "Don't fuck this up..."
 
-*Go to the bridge for debriefing.
+*Leave
 
 {SetNextRoomEvent(Bridge, 2, ->bridgeevent_yellow_day1)}
 
-
-->bridgeevent_yellow_day1
-{NullRoomEvent(hangar)}
+->returnToMap
 
 
