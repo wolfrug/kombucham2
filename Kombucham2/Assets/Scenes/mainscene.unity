@@ -6147,7 +6147,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 1260152244}
   selectedCommands: []
   variables:
   - {fileID: 1260152252}
@@ -9092,7 +9093,8 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: e7fae241b97b6584aa341bbb18e4c17c, type: 3}
+  - {fileID: 21300000, guid: 0d18b3f35a239ab459849e3ac15451fb, type: 3}
+  - {fileID: 21300000, guid: c8411e07ec919fd48bbf8c7146b3617d, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -10220,7 +10222,7 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: e7fae241b97b6584aa341bbb18e4c17c, type: 3}
+  - {fileID: 21300000, guid: 526cea51c386e624a9bb0d75fb732db0, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
