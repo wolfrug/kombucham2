@@ -812,7 +812,7 @@ MonoBehaviour:
   nameColor: {r: 0, g: 0, b: 0, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: e7fae241b97b6584aa341bbb18e4c17c, type: 3}
+  - {fileID: 21300000, guid: 91119fc58d79e4741a67277e7ee72a03, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
