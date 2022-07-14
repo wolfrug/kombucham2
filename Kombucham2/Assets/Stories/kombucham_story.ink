@@ -51,9 +51,10 @@ VAR currentDay = 0
 }
 
 ==start
+(Click anywhere to continue)
+->setupDailyStartEvents->
 {CloseAllRooms()}
-->mainstory_start->
-->skipTime(0)
+->mainstory_start
 
 ==mainView
 #wait
