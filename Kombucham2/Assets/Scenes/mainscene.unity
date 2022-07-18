@@ -6433,8 +6433,7 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 1260152156}
-  selectedCommands:
-  - {fileID: 1260152263}
+  selectedCommands: []
   variables:
   - {fileID: 1260152252}
   - {fileID: 1260152230}
@@ -13559,7 +13558,7 @@ PrefabInstance:
     - target: {fileID: 8494440985457097678, guid: 8839bb2aad049054c847fbb2d01318cf,
         type: 3}
       propertyPath: m_Color.a
-      value: 0.50980395
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8494440985457097678, guid: 8839bb2aad049054c847fbb2d01318cf,
         type: 3}
