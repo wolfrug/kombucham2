@@ -1,7 +1,7 @@
 // Offship events
 
 ==mainstory_start
-#background.sea #wait
+#background.subdistant #wait
 Narrator "When the Portals opened in the ice of old Earth we were the one's who breached the gap and ventured forth into the unknown - we the poor, the desperate, the displaced."
 
 Narrator "There was nothing left for us on our own planet, and so we risked it all, resolved to forge a new home here in the waters of a drowned alien world."
