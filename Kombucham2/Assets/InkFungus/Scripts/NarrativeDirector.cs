@@ -51,7 +51,7 @@ namespace InkFungus
             Off
         }
 
-        private Story story;
+        public Story story;
         private Regex compiledDialogRegex;
         private Dictionary<string, Character> characters = new Dictionary<string, Character>();
         private GlobalVariables fungusGlobalVariables;
