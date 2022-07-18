@@ -3,7 +3,7 @@
 ==mainstory_start
 #background.sea #wait
 Narrator "When the Portals opened in the ice of old Earth we were the one's who breached the gap and ventured forth into the unknown - we the poor, the desperate, the displaced."
-->hangarEvent_yellow_day1
+
 Narrator "There was nothing left for us on our own planet, and so we risked it all, resolved to forge a new home here in the waters of a drowned alien world."
 
 Narrator "We don't know what brought us here, or why. But we weren’t the first to come here.”
