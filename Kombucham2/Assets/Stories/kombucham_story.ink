@@ -15,6 +15,9 @@ INCLUDE kombucham_offship.ink
 
 VAR variable = 45
 VAR debug = true
+
+VAR loading = false
+
 VAR bridgeOpen = true
 VAR livingQuartersOpen = true
 VAR hangarOpen = true
@@ -52,12 +55,16 @@ VAR currentDay = 0
 
 ==start
 (Click anywhere to continue)
+{loading:
+->returnToMap
+}
 ->setupDailyStartEvents->
 {CloseAllRooms()}
 ->mainstory_start
 
 ==mainView
 #wait
+~loading = true // or rather, saving is true
 {debug: [DEBUG] Where do you want to go next?}
 
 // These have to be in this order to display correctly!
