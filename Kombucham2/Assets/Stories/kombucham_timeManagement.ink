@@ -12,10 +12,10 @@
 {currentDay:
 - 0:
 // DAY ZERO
-{SetNextRoomEvent(Bridge, 1, ->hangarEvent_yellow_day1)}
+{SetNextRoomEvent(Hangar, 1, ->hangarEvent_yellow_day0)}
 - 1:
 // DAY ONE -> could also go to specific stitches for ease of reading etc
-
+{SetNextRoomEvent(Hangar, 1, ->hangarEvent_yellow_day1)}
 
 - 2:
 // DAY TWO
