@@ -30,7 +30,7 @@ A small sample of ichor lies under a microscopic lens, moving sluggishly of its 
 *Nod convincingly.
 *Er...sure?
 
--Kaori?normal ""Those are the concentration levels. Normally the highest reading is about a 6.4, but here I'm getting readings of almost double that.
+-Kaori?normal ""Those are the concentration levels. Normally the highest reading is about a 6.4, but here I'm getting readings of almost double that."
 
 *"What does that mean exactly?"
 //infooooo dump. Too many words, I know, but I'm so ill I can't think straight.Better too much than nothing at all.
@@ -53,7 +53,7 @@ Kaori?normal ""There have been rumours on board the ship for a while now, but th
 
 Kaori?normal ""No clue. But whatever it is...it started with the <i>Call</i>."
 
-Kaori?normal ""I hate to say it, but maybe just this once you'd be better off asking the Church about it. Their ichor studies are extensive, and, well, comprehensive. Maybe they have more insight into all this.
+Kaori?normal ""I hate to say it, but maybe just this once you'd be better off asking the Church about it. Their ichor studies are extensive, and, well, comprehensive. Maybe they have more insight into all this."
 
 MC?normal ""That's not a bad idea." And it also means you can kill two birds with one stone, there's still the small matter of the Archbishop's seal that you found.
 
