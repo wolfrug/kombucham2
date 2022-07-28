@@ -1,7 +1,7 @@
 // Hangar events
 
 ==hangarEvent_yellow_day0
-
+#background.hangar #wait
 Back aboard the <i>Pentecost</i> you stand at attention outside the Commanders booth, and let the shower of expletives wash over you.
 
 Jae was rushed off to the infirmary, and you've yet to hear any news, but it seems you have more to worry about for the moment. Your Commander is <i>not</i> happy, not at all, and 

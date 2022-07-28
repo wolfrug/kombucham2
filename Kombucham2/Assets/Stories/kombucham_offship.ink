@@ -22,7 +22,7 @@ Narrator "Calling to us."
 
 Narrator "Waiting to be found..."
 
-#background.test #wait
+#background.subinterior #wait
 
 ->thewreck_day0
 

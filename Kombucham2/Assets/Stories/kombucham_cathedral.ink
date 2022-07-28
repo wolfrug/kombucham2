@@ -57,8 +57,10 @@ The person before you is...dazzling, and for a moment you can't think of a singl
 
 Firenze?normal ""You looked a little lost." They add, smiling like a cheshire cat at your obvious dismay.
 
-* MC?normal ""I prefer to think of it as being strategically adrift."
+MC?normal ""I prefer to think of it as being strategically adrift."
+
 Their smile deepens, dimpling their cheeks.
+
 Firenze?normal ""Well, they do say good things come to those who throw themselves to the mercy of fate."
 
 MC?normal ""They do? I can't say I've heard that one, but I'll take it."
