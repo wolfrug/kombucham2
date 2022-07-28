@@ -18,7 +18,7 @@ And Sykes, well, that's a whole other can of worms. You do your best to ignore h
 
 The Admiral meets your gaze with a kind of tired curiosity. He looks like a man at the end of his tether. 
 
-Alvaro?normal "Ah, the Ranger team from the Arcturus. Report." The Admiral tells you, punctuating the command with a weary wave of his hand.
+Alvaro?normal ""Ah, the Ranger team from the Arcturus. Report." The Admiral tells you, punctuating the command with a weary wave of his hand.
 
 * Tell him everything.
 You explain the events as best you can. Recounting your findings from the <i>Arcturus</i> - the religious shrine, the ichor processing plant, the charts documenting various dives nearby alien ruins, and finally the attack itself and Jae's injury.
@@ -30,7 +30,7 @@ If they want to conceal information from you, then you see no need to overshare.
 
 -The Admiral seems surprised by none of it. 
 
-Alvaro?normal ""Yes, I heard the unfortunate news about your team-mate, but the physician reports he will likely make a full recovery.
+Alvaro?normal ""Yes, I heard the unfortunate news about your team-mate, but the physician reports he will likely make a full recovery."
 
 Kaori?normal ""That's a relief."
 
@@ -41,7 +41,7 @@ MC?normal ""Given how little we had to go on, we're lucky it wasn't worse."
 
 The Admiral brushed off your small dig with a wave of his hand.
 
-Alvaro?normal ""I'm sure you have questions.
+Alvaro?normal ""I'm sure you have questions."
 
 *Speak up.
 MC?normal ""That's wonderful news. But all of this might have been prevented if the Admiralty had been honest with us from the start. What were we looking for down there?"

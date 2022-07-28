@@ -6,9 +6,13 @@ No matter how many times you visit, the Cathedral always takes your breath away.
 
 It is a folly, an absurdity, an extravagance beyond reason, and it's also the most beautiful thing you've ever seen. 
 
-In the early days, when the Visionary first brought the plans for the <i>Pentecost</i> before the colonist council, it was meant to be a spartan exploratory vessel, built for purely scientific research. But with Church funding came Church requirements, and so the Cathedral was added to the plans - a multi-tiered tower of light built from reclaimed Antecendant crystals.
+In the early days, when the Visionary first brought the plans for the <i>Pentecost</i> before the colonist council, it was meant to be a spartan exploratory vessel, built for purely scientific research.
 
-A great staircase wraps around the interior beneath the hanging, glowing tendrils of the archive; part jellyfish, part chandelier, and entirely breathtaking. And above all hangs the pulpit, from which the Archbishop gives his sermons. Though, thinking about it, it's been a while since anyone has seen the Archbishop. Supposedly he's been on an "internal pilgrimage", but you aren't so sure.
+But with Church funding came Church requirements, and so the Cathedral was added to the plans - a multi-tiered tower of light built from reclaimed Antecendant crystals.
+
+A great staircase wraps around the interior beneath the hanging, glowing tendrils of the archive; part jellyfish, part chandelier, and entirely breathtaking. And above all hangs the pulpit, from which the Archbishop gives his sermons.
+
+Though, thinking about it, it's been a while since anyone has seen the Archbishop. Supposedly he's been on an "internal pilgrimage", but you aren't so sure.
 
 *Try to find someone who can help.
 
@@ -34,7 +38,9 @@ The poor man seems more than a little deranged.
 - 
 You know what he's referring to. Ghosts.
 
-Rumour has it that lost loved ones will sometimes appear to those they had a strong connection with in life. But it never happens with those who die of natural causes on board the ship, nor the bodies consigned to the cremation tanks. Only the drowned reappear. Only the drowned live on. And they only appear to a precious few, known as the Blessed. Though you aren't sure what's so blessed about being constantly followed around by a dead person.
+Rumour has it that lost loved ones will sometimes appear to those they had a strong connection with in life. But it never happens with those who die of natural causes on board the ship, nor the bodies consigned to the cremation tanks. Only the drowned reappear. Only the drowned live on.
+
+And they only appear to a precious few, known as the Blessed. Though you aren't sure what's so blessed about being constantly followed around by a dead person.
 
 Some say it is through the intervention of the Presence, absorbing their consciousness after death so that their spirit may live on. It's one of the reasons the church has become so popular.
 
@@ -55,22 +61,25 @@ Firenze?normal ""You looked a little lost." They add, smiling like a cheshire ca
 Their smile deepens, dimpling their cheeks.
 Firenze?normal ""Well, they do say good things come to those who throw themselves to the mercy of fate."
 
-MC?normal ""They do? I can't say I've heard that one, but I'll take it.
+MC?normal ""They do? I can't say I've heard that one, but I'll take it."
 
-* MC?normal ""Is it that obvious?"
+MC?normal ""Is it that obvious?"
+
 Firenze?normal ""Oh don't worry, I doubt anyone else noticed." 
 
--They hold out a bejewlled hand in greeting.
+They hold out a bejewlled hand in greeting.
 
 Firenze?normal ""I'm Firenze, pleasure to make your acquaintance."
 
-MC?normal '"Likewise. And to answer your earlier question, I was hoping someone with Church related insight could shine a light on a couple of things for me."
+MC?normal ""Likewise. And to answer your earlier question, I was hoping someone with Church related insight could shine a light on a couple of things for me."
 
 Firenze?normal ""Well, we don't have more of a hierarchal structure, but you're welcome to speak to me if you'd like. I'm the Archbishop's proxy when he's away, if that means anything."
 
 MC?normal ""Oh, so...is he? Away that is?"
 
-Firenze smiles deepens enigmatically. ""You could say that, certainly. Now, what was the matter you needed clarified?"
+Firenze's smiles deepens enigmatically. 
+
+Firenze?normal ""You could say that, certainly. Now, what was the matter you needed clarified?"
 ->cathedralEvent_questions
 
 
@@ -91,14 +100,19 @@ MC?normal ""No of course, please keep it."
 
 Firenze?normal ""How gracious of you. I promise, I'll keep you abreast of any findings we make. The church archives are extensive." They say, sparing a glance to the glittering chandelier of light above you.
 
-Firenze?normal ""I have no doubt we'll be able to find suitable answers to your questions.
+Firenze?normal ""I have no doubt we'll be able to find suitable answers to your questions."
+
 ->cathedralEvent_questions
 
 * Ask about the Archbishop's seal.
 
 You ask about the seal in the most general terms only, as though it were something you'd only read about in a book, and wasn't presently hanging around your neck - out of sight, of course.
 
-Frienze's curiosity seems piqued by the question. Firenze?normal ""How interesting, I hardly ever get questions about church ephemera. Truth is, like everything else around us, the seals are just another form of ascendant technology. They grant remote access to the archives to special key members of the clergy, and are considered to be a sign of the Archbishop's blessing.
+Frienze's curiosity seems piqued by the question.
+
+Firenze?normal ""How interesting, I hardly ever get questions about church ephemera."
+
+Firenze?normal ""Truth is, like everything else around us, the seals are just another form of ascendant technology. They grant remote access to the archives to special key members of the clergy, and are considered to be a sign of the Archbishop's blessing."
 
 So you were right. The seal was just another form of key like your tags, meant for unlocking information. Perhaps...even information on a cube.
 
@@ -130,18 +144,23 @@ Firenze?normal ""The Maw is mostly harmless, all bark and no bite, if you catch 
 
 Firenze?normal ""I have to get back to my duties, but it was lovely to meet you. You should visit again some time."
 
-* MC?normal ""I'd love to."
+MC?normal ""I'd love to."
+
 There's something magnetic in Firenze's smile, and you find yourself grinning too. 
 
 Who knows. It might be nice to visit from time to time, when you get a free moment in between your normal duties.
-* MC?normal ""Perhaps I will."
+
+MC?normal ""Perhaps I will."
+
 You aren't sure how trustworthy Firenze is, but as far as you can tell they've been nothing less than candid. 
 
 It might be interesting to check in from time to time and see what else you can learn about Church affairs on board the ship - purely for your edification, of course.
 
--* Leave the Cathedral.
+* Leave the Cathedral.
 
--On your way out, you pass by the Wall of the Lost and find yourself lingering to scan the rows upon rows of identi-tags that have been pinned to the wall by loved ones. The wall is a monument to the lost, and the drowned, a shrine stretching back generations to the very first inter-stellar settlers who travelled to this world.
+-On your way out, you pass by the Wall of the Lost and find yourself lingering to scan the rows upon rows of identi-tags that have been pinned to the wall by loved ones.
+
+The wall is a monument to the lost, and the drowned, a shrine stretching back generations to the very first inter-stellar settlers who travelled to this world.
 
 When they broke apart the old base station to build the <i>Penteccost</i> they moved over the existing shrine, and reassembled it on board the ship. <b>"So that the living can remember all who came before."</b> Or so say the words emblazoned on the floor below it.
 
@@ -192,5 +211,6 @@ You're still on your own our here, and if there are any answers to be found, you
 *Head back to your quarters to sleep.
 
 -Perhaps tomorrow will be better.
+#endGame
 
 ->endDay
